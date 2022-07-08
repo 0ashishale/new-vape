@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
   
   
+    <link rel="stylesheet" href="{{asset('css/frontend/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/header.css')}}">
 
 </head>

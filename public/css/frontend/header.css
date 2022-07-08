@@ -1,19 +1,18 @@
 .header {
-  
+  margin: 0;
+  top: 0;
   background: rgb(141, 116, 116);
+  height: 70px;
   
   
    
 }
 
 .header__container{
-  
-  
 float: right;
 display:flex;
 flex-direction: row;
-justify-content: center;
-text-align: center;
+
     
   
 }

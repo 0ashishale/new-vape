@@ -1,0 +1,6 @@
+<div>
+    <x-header/>
+
+    
+
+</div>

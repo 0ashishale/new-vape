@@ -12,6 +12,12 @@
 .header__container .header__searchbar {
     margin-left: 10px;
     display: flex;
+  
+}
+
+.header__container #search__icon{
+ padding: 9px;
+
 }
 
 .header__navlinks a {
@@ -31,7 +37,7 @@
     border: 1px solid green;
 }
 .header__searchbar:hover #search__icon {
-    height: 25px;
+  
     background: rgb(70, 156, 70);
 }
 

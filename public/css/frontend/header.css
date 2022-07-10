@@ -1,22 +1,17 @@
 .header {
-
-  
-  background: rgb(8, 8, 8);
-
-  margin: 0;
-  top: 0;
- 
+ top: 0;
   height: 70px;
-
-  
-  
-   
+  background-color: rgb(145, 83, 83);
 }
 
 .header__container{
+  
+
 float: right;
 display:flex;
 flex-direction: row;
+height: 60px;
+justify-content: center;
 
     
   
@@ -27,7 +22,7 @@ flex-direction: row;
  
   color: rgb(174, 201, 195);
   margin: 10px 20px;
-
+ 
   text-decoration: none;
   border: 1px solid transparent;
 }

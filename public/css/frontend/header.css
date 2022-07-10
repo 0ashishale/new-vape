@@ -1,37 +1,53 @@
-
 .header {
- top: 0;
-  height: 70px;
-  background-color: rgb(145, 83, 83);
+    margin: 0;
 }
 
-.header__container{
-  
-
-float: right;
-display:flex;
-flex-direction: row;
-height: 60px;
-justify-content: center;
-
-    
-  
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 12px;
 }
 
+.header__container .header__searchbar {
+    margin-left: 10px;
+    display: flex;
+}
 
 .header__navlinks a {
- 
-  color: rgb(174, 201, 195);
-  margin: 10px 20px;
- 
-  text-decoration: none;
-  border: 1px solid transparent;
+    color: rgb(174, 201, 195);
+    margin: 10px 20px;
+
+    text-decoration: none;
+    border: 1px solid transparent;
+
+    padding: 6px;
 }
 
-.header__navlinks a:hover{
-    color: rgb(241, 238, 232);
+.header__container .header__searchbar input {
+    border: 1px solid rgb(238, 178, 99);
+}
+.header__searchbar:hover #search__input {
     border: 1px solid green;
 }
+.header__searchbar:hover #search__icon {
+    height: 25px;
+    background: rgb(70, 156, 70);
+}
 
+.header__container .header__searchbar {
+    color: rgb(73, 202, 127);
+}
+.header__container .header__searchbar i {
+    padding: 4px;
+    color: aliceblue;
+    background-color: rgb(238, 178, 99);
+}
 
+.header__container .header__logo img {
+    width: 40vh;
+}
 
+.header__container .header__basket {
+    margin-right: 10px;
+}

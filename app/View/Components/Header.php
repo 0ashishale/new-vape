@@ -4,9 +4,8 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Header extends Component
+class header extends Component
 {
-
     /**
      * Create a new component instance.
      *
@@ -14,7 +13,6 @@ class Header extends Component
      */
     public function __construct()
     {
-        
         //
     }
 

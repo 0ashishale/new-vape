@@ -20,7 +20,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('components.home');
 });
-
+Route::get('/about', function () {
+    return view('components.about');
+});
+Route::get('/blog', function () {
+    return view('components.blog');
+});
+Route::get('/contact', function () {
+    return view('components.contact');
+});
+Route::get('/login', function () {
+    return view('components.login');
+});
+Route::get('/register', function () {
+    return view('components.register');
+});
 //...
 
 Route::get('/my-message', function () {

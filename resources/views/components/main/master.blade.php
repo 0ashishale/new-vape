@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="{{asset('css/frontend/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/header.css')}}">
 
+    <style>
+        body{
+            margin: 0;
+        }
+    </style>
+
 </head>
 <body>
     

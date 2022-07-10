@@ -6,7 +6,7 @@
             <div class="header__searchbar">
 
                 <input type="text" placeholder="Search" id="search__input" />
-                <i class="fa-solid fa-magnifying-glass" id="search__icon"></i>
+                <i class="fa-solid fa-magnifying-glass fa-lg" id="search__icon"></i>
             </div>
 
             <div class="header__logo">

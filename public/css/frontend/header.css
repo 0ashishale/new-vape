@@ -1,4 +1,5 @@
 .header {
+  top: 0;
     margin: 0;
 }
 
@@ -9,51 +10,42 @@
     margin: 12px;
 }
 
-.header__container .header__searchbar {
-    margin-left: 10px;
-    display: flex;
-  
+
+
+.header__searchbar {
+  margin-left: 10px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  color: rgb(73, 202, 127);
+
 }
 
-.header__container #search__icon{
- padding: 9px;
 
+
+
+#search__input{
+  border-radius: 15px;
 }
 
-.header__navlinks a {
-    color: rgb(174, 201, 195);
-    margin: 10px 20px;
 
-    text-decoration: none;
-    border: 1px solid transparent;
 
-    padding: 6px;
-}
+#search__icon{
 
-.header__container .header__searchbar input {
-    border: 1px solid rgb(238, 178, 99);
 }
 .header__searchbar:hover #search__input {
-    border: 1px solid green;
+   
 }
 .header__searchbar:hover #search__icon {
-  
-    background: rgb(70, 156, 70);
-}
 
-.header__container .header__searchbar {
-    color: rgb(73, 202, 127);
-}
-.header__container .header__searchbar i {
-    padding: 4px;
-    color: aliceblue;
-    background-color: rgb(238, 178, 99);
+
 }
 
 .header__container .header__logo img {
-    width: 40vh;
+
 }
 
 .header__container .header__basket {
-    margin-right: 10px;
+    
 }

@@ -11,14 +11,14 @@
 
             <div class="header__logo">
                 <a href="">
-                 <img src="https://vape-preview-com.3dcartstores.com/assets/images/logo.png" alt="">
+                 <img src="{{asset('/images/logo.png')}}" >
                 </a>
             </div>
 
             <div class="header__basket">
-basket
+               <a href="" > <i id="basket"  class="fa fa-shopping-basket fa-4X" ></i> BASKET</a>
             </div>
         </div>
     </div>
 
-</div>
+</div> 

@@ -11,6 +11,7 @@
   
     <link rel="stylesheet" href="{{asset('css/frontend/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/header.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/blog.css')}}">
 
 </head>
 <body>

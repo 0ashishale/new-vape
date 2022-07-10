@@ -1,0 +1,47 @@
+.blog{
+    display: flex;
+    flex-direction: row;
+}
+.blog__container{
+  
+    background: fixed;
+    background-color: black;
+ 
+   
+
+   
+    
+}
+.sub-nav a{
+    color: white;
+   
+}
+
+
+.blog__container h1{
+    color: aliceblue;
+    text-align: center;
+   
+}
+
+
+
+.blog__content{
+    text-align: center;
+}
+
+.blog__content p{
+    text-align: center;
+    letter-spacing: 3px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog__container button{
+    
+   
+   
+}
+.blog__img{
+
+}

@@ -1,4 +1,7 @@
+
+
 <div>
+
     <x-navbar/>
     <x-header/>
   

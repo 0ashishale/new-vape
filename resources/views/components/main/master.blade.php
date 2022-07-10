@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="{{asset('css/frontend/header.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/blog.css')}}">
 
+    <style>
+        body{
+            margin: 0;
+        }
+    </style>
+
 </head>
 <body>
     

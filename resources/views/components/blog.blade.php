@@ -1,5 +1,6 @@
 @include('components.main.master')
 <x-navbar/>
+<x-header/>
 <div class="blog">
     <div class="blog__container">
     <div class="sub-nav" >

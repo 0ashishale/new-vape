@@ -1,0 +1,46 @@
+.cnav{
+    top: 0;
+    background-color: black;
+    
+   
+  }
+  
+  .cnav__container{
+    text-align: center;
+   padding: 5px;
+    
+  }
+  
+  .cnav__navlinks{
+
+
+  
+  border: 1px solid transparent;
+  color: white;
+   padding: 5px;
+   text-decoration: none;
+   margin: 10px;
+   transition: 0.8s;
+  
+  
+  
+  
+  
+  }
+  
+  .cnav__navlinks a{
+    border: 1px solid transparent;
+   color: white;
+   padding: 30px;
+    text-decoration: none;
+    transition: 0.8s;
+    
+  
+  }
+  .cnav__navlinks a:hover{
+    color: greenyellow;
+  }
+  .cnav__navlinks a:active{
+    border: 1px solid rgb(65, 134, 69);
+  }
+  

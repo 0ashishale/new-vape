@@ -39,9 +39,10 @@
 
 .blog__container button{
     
-   
+   background: white;
    
 }
-.blog__img{
-
+.blog__container button:hover{
+    color: black;
+    background: greenyellow;
 }

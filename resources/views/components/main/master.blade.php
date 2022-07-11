@@ -12,10 +12,15 @@
     <link rel="stylesheet" href="{{asset('css/frontend/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/header.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/blog.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/body.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/product.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/home.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/cnav.css')}}">
 
     <style>
         body{
             margin: 0;
+            
         }
     </style>
 

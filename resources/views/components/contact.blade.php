@@ -11,7 +11,7 @@
         <a href="">/</a>
         <a href="/contact">Contact Us</a>
    </div>
-   <div>
+   <div class="contact__title">
     <h1>CONTACT FORM</h1>
    </div>
        <form action="" class="contact__form">

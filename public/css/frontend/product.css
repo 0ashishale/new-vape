@@ -2,8 +2,8 @@
 .product__body{
     margin: 0;
     top: 0;
+    padding: 100px;
     height: 100%;
-    padding-top: 100px;
     font-family: sans-serif;
     background:black;
     background-size: cover;

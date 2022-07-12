@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="{{asset('css/frontend/product.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/home.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/cnav.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/about.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/contact.css')}}">
+
 
     <style>
         body{

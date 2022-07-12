@@ -1,0 +1,22 @@
+.about{
+    background-color: black;
+    height: 60vh;
+    display:flex;
+}
+.about__container{
+    color: white; 
+    padding-left: 50px;
+    
+    
+}
+.about__info{
+    color: greenyellow;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.about__content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-right: 50px;
+}

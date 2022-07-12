@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
    
- 
-  
   
     <link rel="stylesheet" href="{{asset('css/frontend/navbar.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/header.css')}}">
@@ -31,9 +29,10 @@
 </head>
 <body>
     
-  
+
 
 <script src="{{asset('js/frontend/navbar.js')}}"></script>
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
+
 </body>
 </html>

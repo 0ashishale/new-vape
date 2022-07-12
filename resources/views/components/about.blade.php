@@ -1,7 +1,9 @@
-@include('components.main.master')
-<x-navbar/>
-<x-header/>
+@extends('components.main.master')
+
+
 <div class="about">
+    <x-navbar/>
+    <x-header/>
    <div class="about__container">
         <div class="sub-nav">
             <a href="/">Home</a>

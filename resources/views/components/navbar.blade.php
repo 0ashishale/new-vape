@@ -1,22 +1,10 @@
 @include('components.main.master')
+
+
 <div>
     <div class="navbar"> 
             <div class="navbar__container">
-                
-                {{-- <div class="navbar__navlinks" id="navBar">
-                 
-        
-                    <a href="/" >Home</a>
-                    <a href="/about" > About</a>
-                    <a href="/blog" > Blog</a>
-                    <a href="/contact" > Contact</a>
-
-                     <a href="/login" ><i class="fa-regular fa-user" style="margin-right:3px;"></i> Login </a>
-                    <a href="/register" >
-                    <i class="fa-solid fa-user-pen"></i>   
-                         Register</a>
-                         <a href=""javascript:void(0);" class="icon" onclick="myFunction()""><i class="fa-solid fa-bars" ></i></a> 
-                 </div> --}}
+          
                  <div class="navbar__navLinks" id="mynavbar__navLinks">
                     <a href="/" class="active">Home</a>
                     <a href="/about">About</a>
@@ -42,5 +30,5 @@
         x.className = "navbar__navLinks";
       }
     }
-    </script>
+</script>
 

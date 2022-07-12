@@ -1,4 +1,4 @@
-
+@extends('components.main.master')
 
 <div class="home">
 

@@ -1,4 +1,5 @@
-@include('components.main.master')
+@extends('components.main.master')
+
 <x-navbar/>
 <x-header/>
 <div class="blog">

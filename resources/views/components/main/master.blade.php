@@ -35,5 +35,7 @@
 
 <script src="{{asset('js/frontend/navbar.js')}}"></script>
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
+
+
 </body>
 </html>

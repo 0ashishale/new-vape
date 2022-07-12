@@ -27,7 +27,7 @@ overflow: hidden;
 
 .navbar__navlinks a{
   border: 1px solid transparent;
- color: white;
+  color: white;
   padding: 5px;
   text-decoration: none;
   margin: 10px;
@@ -35,6 +35,8 @@ overflow: hidden;
   
 
 }
+
+
 .navbar__navlinks a:hover{
   border: 1px solid greenyellow;
   color: greenyellow;
@@ -48,13 +50,17 @@ overflow: hidden;
   color: white;
   display: none;
 }
-.fa-xmarks{
-  color: white;
+
+.icon{
   display: none;
 }
+
 @media screen and (max-width:700px) {
 
-  
+  .icon{
+    display: block;
+    margin: 10px;
+  }
   .navbar__navlinks a {display: none;}
   .navbar__navlinks a.icon {
     float: right;

@@ -17,7 +17,7 @@
                          Register</a>
                          <a href=""javascript:void(0);" class="icon" onclick="myFunction()""><i class="fa-solid fa-bars" ></i></a> 
                  </div> --}}
-                 <div class="topnav" id="myTopnav">
+                 <div class="navbar__navLinks" id="mynavbar__navLinks">
                     <a href="/" class="active">Home</a>
                     <a href="/about">About</a>
                     <a href="/blog">Blog</a>
@@ -35,11 +35,11 @@
 
 <script>
     function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
+      var x = document.getElementById("mynavbar__navLinks");
+      if (x.className === "navbar__navLinks") {
         x.className += " responsive";
       } else {
-        x.className = "topnav";
+        x.className = "navbar__navLinks";
       }
     }
     </script>

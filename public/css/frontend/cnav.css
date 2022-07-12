@@ -6,7 +6,7 @@
   }
   
   .cnav__container{
-    text-align: center;
+   text-align: center;
    padding: 5px;
     
   }
@@ -30,8 +30,8 @@
   
   .cnav__navlinks a{
     border: 1px solid transparent;
-   color: white;
-   padding: 30px;
+    color: white;
+    padding: 30px;
     text-decoration: none;
     transition: 0.8s;
     

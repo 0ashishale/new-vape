@@ -1,5 +1,4 @@
-@include('components.main.master')
-
+@extends('components.main.master')
 <div>
     <div class="navbar"> 
             <div class="navbar__container">
@@ -27,4 +26,3 @@
         x.className = "navbar__navLinks";
       }
     }
-    </script>

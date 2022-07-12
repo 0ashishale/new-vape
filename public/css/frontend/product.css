@@ -2,6 +2,7 @@
 .product__body{
     margin: 0;
     top: 0;
+
     padding: 100px;
     font-family: sans-serif;
     background:black;
@@ -14,7 +15,7 @@
 }
 .product__items h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     padding-top: 10px;
     color: greenyellow;
@@ -59,7 +60,7 @@
 .product__items p{
     text-align: center;
     color: white;
-    padding-top: 0 8px;
+    padding: 0 8px;
 
 }
 .product__items h6{
@@ -81,6 +82,7 @@
     padding: 2px;
 }
 .fa-star{
+
     font-size: 15px;
     transition: .4s;
     color: white;
@@ -92,10 +94,10 @@
 }
 .product__items button{
     text-align: center;
-    font-size: 24px;
+    font-size: 15px;
     color: white;
     width: 100%;
-    padding:15px;
+    padding:8px;
     border: 0;
     outline: none;
     cursor: pointer;
@@ -106,6 +108,12 @@
 }
 .buy{
     background: green;
+    border: 2px solid transparent;
+}
+
+.buy:hover{
+    color: chartreuse;
+    border: 2px solid white;
 }
 @media(max-width:1000px){
     .product__items{

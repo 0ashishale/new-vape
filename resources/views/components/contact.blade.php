@@ -1,4 +1,9 @@
-@include('components.main.master')
+@extends('components.main.master')
+<div class="contact">
+  <x-navbar/>
+<x-header/>
+
+
 <div class="contact__body" >
     <div class="contact__container">
    <div class="sub-nav">
@@ -46,4 +51,5 @@
               </div>
        </form>
     </div>
+</div>
 </div>

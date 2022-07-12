@@ -1,8 +1,10 @@
 @extends('components.main.master')
-
-<div class="about">
+<div>
     <x-navbar/>
     <x-header/>
+
+<div class="about">
+
    <div class="about__container">
         <div class="sub-nav">
             <a href="/">Home</a>
@@ -33,3 +35,5 @@
 
     </div>
 </div>
+</div>
+

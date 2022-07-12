@@ -41,7 +41,6 @@
 .header__logo {
 }
 
-
 .header__logo a img{
   height: 120px;
   width: 80%;
@@ -66,7 +65,6 @@
 #basket:hover{
   color: greenyellow;
 }
-
 
 @media screen and (max-width: 700px) {
     .header__container {

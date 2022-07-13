@@ -26,3 +26,5 @@
         x.className = "navbar__navLinks";
       }
     }
+
+</script>

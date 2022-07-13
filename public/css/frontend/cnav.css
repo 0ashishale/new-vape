@@ -43,4 +43,15 @@
   .cnav__navlinks a:active{
     border: 1px solid rgb(65, 134, 69);
   }
+
+  @media screen and (max-width:700px){
+    .cnav__navlinks{
+      margin: 0;
+    }
+    .cnav__navlinks a{
+      padding: 5px;
+   
+      text-decoration: underline;
+    }
+  }
   

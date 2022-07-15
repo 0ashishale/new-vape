@@ -16,11 +16,14 @@
     <link rel="stylesheet" href="{{asset('css/frontend/cnav.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/about.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/contact.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/checkout.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/footer.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/sidebar.css')}}">
 
 
 
     <style>
-        body{
+        *{
             margin: 0;
             
         }

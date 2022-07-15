@@ -19,7 +19,7 @@
                 
          
                <div id="basket">
-                <a href=""><i id="basket"  class="fa fa-shopping-basket fa-2x"  ></i> </a>
+                <a href="/checkout"><i id="basket"  class="fa fa-shopping-basket fa-2x"  ></i> </a>
                </div>
                <div class="basket__content">
                     <p>Shooping Cart</p>

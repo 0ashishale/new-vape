@@ -4,10 +4,12 @@
 
     <x-navbar/>
     <x-header/>
+    <x-sidebar/>
     <x-cnav/>
     <x-body/>
     <x-product/>
     <x-newprodect/>
+    <x-footer/>
 
 
     

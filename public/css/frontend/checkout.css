@@ -1,0 +1,82 @@
+
+
+
+.checkout h1{
+    color: white;
+    text-decoration: underline;
+    margin-left: 3%;
+}
+
+.checkout__table tr th{
+    text-decoration: underline;
+}
+
+.table__item{
+ display: flex;
+
+}
+
+.table__item .checkout__image img{
+        height: 80px;
+        width: 80px;
+}
+
+.table__item .checkout__name h3,  .checkout__btn{
+    margin-left: 40px;
+   
+}
+
+
+
+
+.counter input{
+    height: 30px;
+    width: 40px;
+  
+}
+
+
+.counter #value{
+        border-left: 2px;
+        border-right: 2px;
+        border-top: 0;
+        border-bottom:0 ;
+        border-style: solid;
+        border-color: black;
+}
+
+
+
+
+
+.checkout__table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+ .table td, th {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+
+  .checkout__subtotaltable{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+
+  .checkout__subtotaltable .subtotal{
+    color: #dddddd;
+    width: 25%;
+
+  }
+
+
+  

@@ -35,6 +35,9 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('components.register');
 });
+Route::get('/checkout', function () {
+    return view('components.checkout');
+});
 //...
 
 Route::get('/my-message', function () {

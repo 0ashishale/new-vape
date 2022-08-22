@@ -1,86 +1,78 @@
- .navbar{
-  top: 0;
-  
- 
-}
-
-
-.navbar__container{
-  width: 100%;
- 
-  
-}
-
-.navbar__navlinks{
- 
-padding: 15px 30px 15px 0;
-background: black;
-text-align: right;
-overflow: hidden;
-
-
-
-
-}
-
-.navbar__navlinks a{
-  border: 1px solid transparent;
-  color: white;
-  padding: 5px;
-  text-decoration: none;
-  margin: 10px;
-  transition: 0.8s;
-  
-
-}
-
-
-.navbar__navlinks a:hover{
-  border: 1px solid greenyellow;
-  color: greenyellow;
-}
-.navbar__navlinks a:active{
-  border: 1px solid rgb(65, 134, 69);
-}
-
-
-.fa-bars  {
-  color: white;
-  display: none;
-}
-
-.icon{
-  display: none;
-}
-
-@media screen and (max-width:700px) {
-
-  .icon{
-    display: block;
-    margin: 10px;
-  }
-  .navbar__navlinks a {display: none;}
-  .navbar__navlinks a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-
-@media screen and (max-width:700px){
-
-
-  
-  .navbar__navlinks.responsive {position: relative;}
-  .navbar__navlinks.responsive .icon {
-    position: absolute;
-    right: 0;
+.navbar {
     top: 0;
-  }
-  .navbar__navlinks.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+    margin-bottom: 30px;
+   
+}
 
-} 
+.navbar__container {
+    width: 100%;
+}
+
+.navbar__navlinks {
+    padding: 15px 30px 15px 0;
+    background: black;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+    
+  
+   
+}
+
+.navbar__navlinks a {
+    border: 1px solid transparent;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.8s;
+}
+
+.navbar__navlinks a:hover {
+    border: 1px solid greenyellow;
+    color: greenyellow;
+}
+.navbar__navlinks a:active {
+    border: 1px solid rgb(65, 134, 69);
+}
+
+.fa-bars {
+    color: white;
+    display: none;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .icon {
+        display: block;
+        margin: 10px;
+    }
+    .navbar__navlinks a {
+        display: none;
+    }
+    .navbar__navlinks a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar__navlinks.responsive {
+        position: relative;
+    }
+    .navbar__navlinks.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar__navlinks.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

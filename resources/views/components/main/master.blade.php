@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{asset('css/frontend/checkout.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/footer.css')}}">
     <link rel="stylesheet" href="{{asset('css/frontend/sidebar.css')}}">
+    <link rel="stylesheet" href="{{asset('css/frontend/login.css')}}">
 
 
 

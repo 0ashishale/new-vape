@@ -1,6 +1,7 @@
 .header {
     top: 0;
     margin: 0;
+   
 }
 
 .header__container {
@@ -23,9 +24,13 @@
 
 #search__input {
     border-radius: 15px;
+    height: 35px;
+    
 }
 
 #search__icon {
+    cursor: pointer;
+    margin-left: 5px;
 }
 .header__searchbar:hover #search__input {
 }

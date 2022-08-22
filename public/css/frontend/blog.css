@@ -1,33 +1,41 @@
 .blog{
+  
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    
 }
 .blog__container{
   
     background: fixed;
-    background-color: black;
- 
-   
-
-   
+    background-color: black ;
+    padding-left:15px;
     
 }
-.sub-nav a{
-    color: white;
+.sub-nav {
+    
+    margin-left: 20px;
    
 }
+
+.sub-nav a{
+    color: white;
+}
+
 
 
 .blog__container h1{
     color: aliceblue;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
    
 }
 
 
-
 .blog__content{
     text-align: center;
+ 
 }
 
 .blog__content p{

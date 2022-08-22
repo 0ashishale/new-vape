@@ -11,24 +11,24 @@
 
             <div class="header__logo">
                 <a href="">
-                 <img src="{{asset('/images/logo.png')}}" >
+                    <img src="{{ asset('/images/logo.png') }}">
                 </a>
             </div>
 
             <div class="header__basket">
-                
-         
-               <div id="basket">
-                <a href="/checkout"><i id="basket"  class="fa fa-shopping-basket fa-2x"  ></i> </a>
-               </div>
-               <div class="basket__content">
+
+
+                <div id="basket">
+                    <a href="/checkout"><i id="basket" class="fa fa-shopping-basket fa-2x"></i> </a>
+                </div>
+                <div class="basket__content">
                     <p>Shooping Cart</p>
                     <span>0 item: $999</span>
-               </div>
-               
+                </div>
+
 
             </div>
         </div>
     </div>
 
-</div> 
+</div>

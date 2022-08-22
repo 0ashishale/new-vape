@@ -4,9 +4,10 @@
 }
 .body__container{
     height: 80vh;
-    position:relative;
     background-image: url('/images/background.PNG');
     background-size: cover;
+    
+   
 }
 .body__content{
     height: 100%;

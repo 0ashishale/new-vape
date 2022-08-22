@@ -40,14 +40,14 @@
     border-radius: 20px;
     cursor: pointer;
     padding-top: 10px;
-    box-shadow: 0 14px 28px white, 0 10px 10px white;
+    box-shadow: 0 8px 10px white, 0 10px 10px white;
     transition: .4s;
     background: black;
 
 
 }
 .product__items:hover{
-    box-shadow: 0 3px 6px greenyellow, 0 3px 6px green;
+    box-shadow: 0 1px 3px greenyellow, 0 3px 6px green;
     transform: translate(0px, -8px);
 }
 .product__items img{
@@ -108,12 +108,12 @@
 }
 .buy{
     background: green;
-    border: 2px solid transparent;
+ 
 }
 
 .buy:hover{
     color: chartreuse;
-    border: 2px solid white;
+   
 }
 @media(max-width:1000px){
     .product__items{
